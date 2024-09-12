@@ -1,0 +1,42 @@
+<!--Linkedin buttons with background,text color effects while cursor over button using padding-->
+<html>
+    <head>
+        <title>Linkedin</title>
+    </head>
+    <body>
+        <style>
+           .apply-btn {
+                background-color: rgb(10, 102, 194);
+                color: white;
+                font-weight: bold;
+                border-radius: 20px;
+                border: none;
+                padding:10px 25px;
+                font-size: 80%;
+                margin-right: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+            .apply-btn:hover {
+               background-color: rgb(5, 70, 127);
+            }
+            .save-btn {
+                background-color: white;
+                color: rgb(10, 102, 194);
+                border: 2px solid rgb(10, 102, 194); 
+                padding:10px 25px;
+                border-radius: 20px;
+                font-size: 80%;
+                cursor: pointer;
+                transition: border-color,background-color 0.3s ease;
+            }
+            .save-btn:hover {
+                color: rgb(5, 70, 127);
+                border-color: rgb(5, 70, 127);
+                background-color: rgb(232, 237, 242);
+            }
+        </style>
+        <button class="apply-btn">Apply on company website</button>
+        <button class="save-btn">Save</button>
+    </body>
+</html>
